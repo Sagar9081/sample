@@ -1,0 +1,7 @@
+.text-center {
+  grid-area: footer;
+  background: black;
+  padding: 0.1rem;
+  color: white;
+  font-size: 15px;
+}

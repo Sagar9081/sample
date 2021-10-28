@@ -1,13 +1,221 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.hometag {
+  font-family: "Anton", sans-serif;
+  font-weight: bolder;
+  text-align: start;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffffd2;
+}
+.hometag1 {
+  font-family: "Anton", sans-serif;
+  font-weight: bolder;
+  font-size: 35px;
+
+  color: #e2df0b;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.jslogo {
+  height: 60px;
+  width: 180px;
+
+  border: white outset 1px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+}
+.jslogo1 {
+  font-size: 40px;
+}
+
+.jslogo:hover {
+  height: 60px;
+  width: 180px;
+  background-color: rgb(14, 13, 13);
+  color: rgb(211, 214, 2);
+  box-shadow: 0 1rem 3rem rgba(71, 71, 69);
+}
+.reactlogo {
+  height: 60px;
+  width: 180px;
+  color: white;
+  border: white outset 1px;
+  border-radius: 10px;
+  font-family: "Anton", sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.reactlogo1 {
+  font-size: 40px;
+}
+.reactlogo:hover {
+  background-color: black;
+  color: rgb(0, 222, 252);
+  box-shadow: 0 1rem 3rem rgba(71, 71, 69);
+}
+.bootstrap {
+  height: 60px;
+  width: 180px;
+  color: white;
+  border: white outset 1px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.bootstrap1 {
+  font-size: 40px;
+}
+.bootstrap:hover {
+  background-color: rgb(157, 9, 255);
+  color: white;
+  box-shadow: 0 1rem 3rem rgba(71, 71, 69);
+}
+
+.mysql {
+  height: 60px;
+  width: 180px;
+  color: white;
+  border: white outset 1px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.mysql1 {
+  font-size: 40px;
+}
+.mysql:hover {
+  background-color: white;
+  color: rgb(0, 57, 95);
+  box-shadow: 0 1rem 3rem rgba(71, 71, 69);
+}
+.html {
+  height: 60px;
+  width: 180px;
+  color: white;
+  border: white outset 1px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.html1 {
+  font-size: 40px;
+}
+.html:hover {
+  background-color: white;
+  color: rgb(212, 96, 0);
+  box-shadow: 0 1rem 3rem rgba(71, 71, 69);
+}
+
+.css {
+  height: 60px;
+  width: 180px;
+  color: white;
+  border: white outset 1px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.css1 {
+  font-size: 40px;
+}
+.css:hover {
+  background-color: white;
+  color: rgb(14, 117, 212);
+  box-shadow: 0 1rem 3rem rgba(71, 71, 69);
+}
+
+.postman {
+  height: 60px;
+  width: 180px;
+  color: white;
+  border: white outset 1px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.postman1 {
+  font-size: 40px;
+}
+.postman:hover {
+  background-color: white;
+  color: rgb(216, 122, 0);
+  box-shadow: 0 1rem 3rem rgba(71, 71, 69);
+}
+
+.icon {
+  height: 60px;
+  width: 180px;
+  color: white;
+  border: white outset 1px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.icon1 {
+  font-size: 40px;
+}
+.icon:hover {
+  background-color: rgb(245, 245, 245);
+  color: rgb(3, 119, 3);
+  box-shadow: 0 1rem 3rem rgba(71, 71, 69);
+}
+
+.node {
+  height: 60px;
+  width: 180px;
+  color: white;
+  border: white outset 1px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.icon1 {
+  font-size: 40px;
+}
+.node:hover {
+  background-color: rgb(245, 245, 245);
+  color: rgb(3, 119, 3);
+  box-shadow: 0 1rem 3rem rgba(71, 71, 69);
+}
+.skills {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.p1 {
+  font-size: 25px;
+}
+.p2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(210, 105, 231);
+}
+.p3 {
+  font-size: 30px;
+  color: rgb(168, 167, 167);
+}
+.full {
+  font-weight: 900;
+  color: rgb(214, 207, 207);
+}
+.p4 {
+  font-weight: normal;
+  color: whitesmoke;
 }
